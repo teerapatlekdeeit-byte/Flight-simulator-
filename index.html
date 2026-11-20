@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>teerapatlekdeeit-byte games</title>
+  <link rel="canonical" href="https://github.io">
   <style>
     body {
       margin: 0;
@@ -12,19 +13,24 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 16px;
+      gap: 20px;
       background: #0e1a2b;
       color: #fff;
       font-family: system-ui, sans-serif;
     }
-    .game-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 16px;
-      padding: 20px;
+    h1 {
+      margin: 0;
+      font-size: 28px;
     }
-    a {
+    .site-url {
+      color: #8fa8c8;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .site-url:hover {
+      text-decoration: underline;
+    }
+    a.game-btn {
       display: block;
       padding: 18px 28px;
       border-radius: 12px;
@@ -35,19 +41,15 @@
       font-weight: 600;
       transition: background 0.2s, transform 0.1s;
     }
-    a:hover {
+    a.game-btn:hover {
       background: #368ce8;
       transform: translateY(-2px);
-    }
-    a:active {
-      transform: translateY(0);
     }
   </style>
 </head>
 <body>
   <h1>teerapatlekdeeit-byte games</h1>
-  <div class="game-list">
-    <a href="flight-sim/">✈️ Flight Simulator</a>
-  </div>
+  <a class="game-btn" href="https://github.ioflight-sim/">✈️ Flight Simulator</a>
+  <a class="site-url" href="https://github.io">teerapatlekdeeit-byte.github.io</a>
 </body>
 </html>
